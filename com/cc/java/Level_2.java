@@ -5,7 +5,7 @@ public class Level_2 extends Level_3{
     private String levelName = "Level 2";
     private int levelPoints= 10;
 
-    public String play(){
+    protected String play(){
      
       if (points < this.levelPoints) {
           points++;
